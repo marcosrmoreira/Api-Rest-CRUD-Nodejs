@@ -1,0 +1,28 @@
+{
+  "name": "api-rest-crud-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto Dio  Criação CRUD Rest - NodeJs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrmoreira/Api-Rest-CRUD-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Marcos Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosrmoreira/Api-Rest-CRUD-Nodejs/issues"
+  },
+  "homepage": "https://github.com/marcosrmoreira/Api-Rest-CRUD-Nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
